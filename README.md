@@ -1,2 +1,2 @@
-# IBA-AI-ML-DL
-assignments and projects 
+We load the House Price dataset, identify missing values in both train and test sets, and then clean the data by imputing those missing values using appropriate strategies (median for numerical, mode for categorical, and "None" where absence is meaningful). Finally, we encode categorical features and save the cleaned file.
+Then we split the cleaned training data into train/test pairs at three different ratios: 70:30, 75:25, and 80:20. We use random_state=42 so the splits are reproducible every time.
